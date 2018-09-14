@@ -147,6 +147,7 @@ footer a:hover  {
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+    
 }
 
 h2  {
@@ -166,6 +167,26 @@ h2  {
     color: black;  
 }
 
+.release_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+}
+
+.release_page img  {
+    margin-right: 4em;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.release_page p  {
+    width: 500px;
+    margin-left: -25em;
+    height: 500px;
+    margin-bottom: -250px;
+}
 
 @media (max-width: 1400px){
     .head_name {

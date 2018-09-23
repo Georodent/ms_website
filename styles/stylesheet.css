@@ -52,6 +52,10 @@ body  {
     padding: .1em 0 .7em 0;
 }
 
+.top-nav a:hover  {
+    color: white;
+}
+
 .releases, h1  {  
     text-shadow: 1px 1px 1px white;
     color: black;
@@ -147,7 +151,6 @@ footer a:hover  {
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
-    
 }
 
 h2  {
@@ -207,9 +210,15 @@ h2  {
     .releases {
         font-size: 1.5em;
     }
-    
-}
-
+    .main-pic  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    .enter-pic img  {
+        width: 300px;
+    }
 
 
 

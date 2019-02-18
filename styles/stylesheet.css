@@ -169,27 +169,22 @@ h2  {
     text-shadow: 1px 1px 1px white;
     color: black;  
 }
-
-.release_page {
+article  {
+    width: 75%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
     justify-content: space-around;
-    margin: 0 10% 0 10%;
-}
-
-.release_page img  {
-    margin-right: 4em;
-    box-shadow: 1px 1px 1px 1px grey;
+    flex-flow: wrap;
 }
 
 .release_page p  {
-    width: 500px;
-    margin-left: -25em;
-    height: 500px;
-    margin-bottom: -250px;
+    color: white;
+    margin: auto 0 auto 2em;
+    text-align: center;   
+    width: 75%;
 }
+
+
 
 @media (max-width: 1400px){
     .head_name {
@@ -219,6 +214,15 @@ h2  {
     .enter-pic img  {
         width: 300px;
     }
-
+@media (max-width: 550px) {
+    .release_page img {
+        width: 250px;
+        height: 250px;
+        }
+    .release_page p  {
+        width: 100%;
+        margin: 2em 0;
+    }
+    }
 
 

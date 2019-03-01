@@ -23,6 +23,7 @@ body  {
 }
     
 .head_name  {
+    
     font-size: 6em;
     margin: auto;
     font-weight: 50;
@@ -30,18 +31,19 @@ body  {
     border: none;
     color: black;
     text-shadow: 1px 1px 1px white;
+    
 }
 
 
 .top-nav  {
-    font-size: 3em;
+    font-size: 2em;
     background: linear-gradient(red 60%, black);
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     flex-flow: wrap;
-    margin: .4em 0 0 0; 
+    margin: .1em 0 0 0; 
 }
 
 .top-nav a  {
@@ -171,15 +173,16 @@ h2  {
 }
 article  {
     width: 75%;
-    margin: auto;
+    margin: 1em auto 3em auto;
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
+    
 }
 
 .release_page p  {
     color: white;
-    margin: auto 0 auto 2em;
+    margin: .8em 0 0 2em;
     text-align: center;   
     width: 75%;
 }
@@ -189,7 +192,7 @@ article  {
 @media (max-width: 1400px){
     .head_name {
         text-align: center;
-        font-size: 3em;
+        font-size: 2em;
     }
     .top-nav, a  {
         font-size: 1.5em;
@@ -225,7 +228,7 @@ article  {
         font-size: 1.1em;
     }
     .top-nav a {
-        font-size: .8em;
+        font-size: 1em;
         
 }
     }

@@ -26,7 +26,6 @@ body  {
     
     font-size: 6em;
     margin: auto;
-    font-weight: 50;
     font-family: 'Cinzel Decorative', cursive;
     border: none;
     color: black;
@@ -225,7 +224,7 @@ article  {
     .release_page p  {
         width: 100%;
         margin: 2em 0;
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .top-nav a {
         font-size: 1em;

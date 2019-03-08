@@ -222,7 +222,7 @@ article  {
         height: 250px;
         }
     .release_page p  {
-        width: 100%;
+/*        width: 100%;*/
         margin: 2em 0;
         font-size: 1.6em;
     }
@@ -230,20 +230,6 @@ article  {
         font-size: 1em;
         
 }
-@media (max-width: 100px) {
-    .release_page img {
-        width: 250px;
-        height: 250px;
-        }
-    .release_page p  {
-        width: 100%;
-        margin: 2em 0;
-        font-size: 1.6em;
-    }
-    .top-nav a {
-        font-size: 1em;
-        
-}    
     }
 
 

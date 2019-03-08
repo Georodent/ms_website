@@ -222,9 +222,9 @@ article  {
         height: 250px;
         }
     .release_page p  {
-/*        width: 100%;*/
+        width: 100%;
         margin: 2em 0;
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     .top-nav a {
         font-size: 1em;

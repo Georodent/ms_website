@@ -93,11 +93,12 @@ section  {
     align-items: center;
     justify-content: space-around;
     flex-flow: wrap;  
-}
 
+}
 figure  {
     color: white;
     text-align: center;
+    
 }
 
 aside  {
@@ -108,10 +109,12 @@ aside  {
     flex-flow: wrap;  
 }
 
+/*
 figure  {
     color: white;
     text-align: center;
 }
+*/
 
 figcaption  {
     margin: .4em 0;
@@ -230,7 +233,7 @@ article  {
         font-size: .8em;
         
 }
-    section img {
+    section figure {
         width: 100%;
     }
     }

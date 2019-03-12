@@ -233,8 +233,14 @@ article  {
         font-size: .8em;
         
 }
-    section figure {
+    section  {
         width: 100%;
+    }
+    figure img {
+        width: 100%;
+    }
+    figcaption  {
+        width:100%;
     }
     }
 

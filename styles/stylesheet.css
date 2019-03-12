@@ -236,8 +236,9 @@ article  {
     section  {
         width: 100%;
     }
-    figure img {
+    figure, img {
         width: 100%;
+        height: 50%;
     }
     figcaption  {
         width:100%;
